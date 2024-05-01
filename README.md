@@ -491,7 +491,7 @@ To check for outlier, several methods can be effective:
 **Box Plot**
 
 
-```python
+
 # Specify the columns I want to include in the box plot
 columns = ['trip_distance', 'fare_amount', 'extra','mta_tax','tip_amount','tolls_amount','total_amount'] 
 
@@ -509,11 +509,11 @@ for i, column in enumerate(columns):
 plt.tight_layout()
 
 plt.savefig('box plots.pdf')
-```
+
 
 
     
-![png](output_22_0.png)
+![pdf](box plots.pdf)
     
 
 
